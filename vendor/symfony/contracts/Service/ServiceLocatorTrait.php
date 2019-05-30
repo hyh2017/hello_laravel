@@ -96,7 +96,7 @@ trait ServiceLocatorTrait
         } else {
             $last = array_pop($alternatives);
             if ($alternatives) {
-                $message = sprintf('only knows about the "%s" and "%s" services.', implode('", "', $alternatives), $last);
+                $message = sprintf('only knows about the "%s" and "%s" service.', implode('", "', $alternatives), $last);
             } else {
                 $message = sprintf('only knows about the "%s" service.', $last);
             }

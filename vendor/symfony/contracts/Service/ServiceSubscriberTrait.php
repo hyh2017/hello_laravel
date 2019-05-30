@@ -14,7 +14,7 @@ namespace Symfony\Contracts\Service;
 use Psr\Container\ContainerInterface;
 
 /**
- * Implementation of ServiceSubscriberInterface that determines subscribed services from
+ * Implementation of ServiceSubscriberInterface that determines subscribed service from
  * private method return types. Service ids are available as "ClassName::methodName".
  *
  * @author Kevin Bond <kevinbond@gmail.com>

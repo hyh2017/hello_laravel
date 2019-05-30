@@ -18,7 +18,7 @@ namespace Symfony\Contracts\Service;
  * optionally keyed by the service names used internally. Service types that start with an interrogation
  * mark "?" are optional, while the other ones are mandatory service dependencies.
  *
- * The injected service locators SHOULD NOT allow access to any other services not specified by the method.
+ * The injected service locators SHOULD NOT allow access to any other service not specified by the method.
  *
  * It is expected that ServiceSubscriber instances consume PSR-11-based service locators internally.
  * This interface does not dictate any injection method for these service locators, although constructor

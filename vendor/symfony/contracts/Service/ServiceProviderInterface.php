@@ -14,7 +14,7 @@ namespace Symfony\Contracts\Service;
 use Psr\Container\ContainerInterface;
 
 /**
- * A ServiceProviderInterface exposes the identifiers and the types of services provided by a container.
+ * A ServiceProviderInterface exposes the identifiers and the types of service provided by a container.
  *
  * @author Nicolas Grekas <p@tchwork.com>
  * @author Mateusz Sip <mateusz.sip@gmail.com>
